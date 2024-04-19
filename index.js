@@ -1,4 +1,4 @@
-console.log("Hello Paulo!")
+console.log("Hello Pogi!")
 
 let B = false, 
 I = false, 
@@ -414,4 +414,8 @@ while(!B || !I || !N || !G || !O ) {
     newNumber5(75);
     
 }
-
+document.querySelectorAll('td').forEach(row =>{
+    row.addEventListener('click', e =>{
+        e.target.classList.toggle('color');
+    })
+})
